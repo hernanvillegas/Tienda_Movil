@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'package:smart_house_application/screens/home/home.dart';
+import 'package:tienda_movil/screens/home/home.dart';
 
 void main(){
   runApp(
@@ -30,7 +30,7 @@ void main(){
             ),
           ],
         ),
-       // body: Home()
+       body: Home()
       ),
     )
   );
