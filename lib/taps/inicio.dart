@@ -28,7 +28,7 @@ class InicioTabs extends StatelessWidget{
               color: Colors.blue,
               onPressed: (){ //click del boton cuando lo presionamos
                 Scaffold.of(context).showSnackBar(
-                  SnackBar(content: Text('MISION: \nConstruir relaciones solidas con nuestros clientes que nos permita entender sus deceos y necesidades, permitiendonos solucionar sus problemas a travez de nuestra experiencia en la rama de marketing y publicidad \nvISION: \nSer la agencia de publicidad mas eficiente para la compra y venta de dispositivos electronicos, que le permitan asu persona encontrar lo que buscaba y a un precio economico'))
+                  SnackBar(content: Text('MISION: \nConstruir relaciones solidas con nuestros clientes que nos permita entender sus deceos y necesidades, permitiendonos solucionar sus problemas a travez de nuestra experiencia en la rama de marketing y publicidad \n\nVISION: \n\nSer la agencia de publicidad mas eficiente para la compra y venta de dispositivos electronicos, que le permitan asu persona encontrar lo que buscaba y a un precio economico'))
                 );
               },
               child: new Text("Presiona Aqui"),
