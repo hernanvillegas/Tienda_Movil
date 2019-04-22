@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tienda_movil/taps/nosotros.dart';
 import 'package:tienda_movil/taps/productos.dart';
-import 'package:tienda_movil/taps/laptops.dart';
+import 'package:tienda_movil/taps/inicio.dart';
 import 'package:tienda_movil/taps/registro.dart';
 //import 'package:tienda_movil/screens/home_screen.dart';
 
