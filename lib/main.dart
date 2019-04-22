@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tienda_movil/taps/audifonos.dart';
+import 'package:tienda_movil/taps/nosotros.dart';
 import 'package:tienda_movil/taps/productos.dart';
 import 'package:tienda_movil/taps/laptops.dart';
 import 'package:tienda_movil/taps/registro.dart';
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget{
             new InicioTabs(),
             new ProductosTabs(),
             new RegistroTabs(),
-            new AudifonosTabs(),
+            new NosotrosTabs(),
           ],
         ),
       ),
