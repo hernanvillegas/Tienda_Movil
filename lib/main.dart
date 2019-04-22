@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget{
         appBar:new AppBar(
             title: new Text('TIENDA MOVIL'),
             bottom: new TabBar(indicatorColor: Colors.red, tabs: <Widget>[
-                  new Tab(icon: new Icon(Icons.home), text: "LapTops",),
-                  new Tab(icon: new Icon(Icons.contacts), text: "Celulares",),
-                  new Tab(icon: new Icon(Icons.place), text: "Tabletas",),
-                  new Tab(icon: new Icon(Icons.help), text: "Audifonos",)
+                  new Tab(icon: new Icon(Icons.home), text: "Inicio",),
+                  new Tab(icon: new Icon(Icons.contacts), text: "Productos",),
+                  new Tab(icon: new Icon(Icons.place), text: "Registro",),
+                  new Tab(icon: new Icon(Icons.help), text: "Acerca de",)
             ]),
         ),
         body: new TabBarView(
