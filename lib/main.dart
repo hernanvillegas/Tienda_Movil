@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tienda_movil/taps/audifonos.dart';
-import 'package:tienda_movil/taps/celulares.dart';
+import 'package:tienda_movil/taps/productos.dart';
 import 'package:tienda_movil/taps/laptops.dart';
-import 'package:tienda_movil/taps/tabletas.dart';
+import 'package:tienda_movil/taps/registro.dart';
 //import 'package:tienda_movil/screens/home_screen.dart';
 
 void main() => runApp(MyApp());
@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget{
         body: new TabBarView(
           children: <Widget>[
             new InicioTabs(),
-            new CelularesTabs(),
-            new TabletasTabs(),
+            new ProductosTabs(),
+            new RegistroTabs(),
             new AudifonosTabs(),
           ],
         ),
