@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:tienda_movil/widgets/custom_text.dart';
 import 'package:tienda_movil/screens/training_screen.dart';
 
@@ -12,7 +12,7 @@ class CustomCard extends StatelessWidget {
   double mBorderRadius = 15.0;
 
   int mId;
-  /* String mTitle;
+   String mTitle;
   String mPathImage;
   Icon mIcon;
   Color mFilter = Colors.deepPurple;
@@ -123,3 +123,4 @@ class CustomCard extends StatelessWidget {
     );
   }
 }
+*/

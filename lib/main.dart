@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:tienda_movil/taps/audifonos.dart';
+import 'package:tienda_movil/taps/celulares.dart';
+import 'package:tienda_movil/taps/laptops.dart';
+import 'package:tienda_movil/taps/tabletas.dart';
 //import 'package:tienda_movil/screens/home_screen.dart';
 
 void main() => runApp(MyApp());
@@ -6,7 +10,7 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget{
    @override
   Widget build(BuildContext context) {
-    final TabControllerr=new DefaultTabController(
+    final TabController=new DefaultTabController(
         length: 4, // numero de iconos
         child: new Scaffold(
         appBar:new AppBar(
@@ -16,22 +20,26 @@ class MyApp extends StatelessWidget{
                   new Tab(icon: new Icon(Icons.contacts), text: "Celulares",),
                   new Tab(icon: new Icon(Icons.place), text: "Tabletas",),
                   new Tab(icon: new Icon(Icons.help), text: "Audifonos",)
-            ],),
+            ]),
         ),
         body: new TabBarView(
           children: <Widget>[
-            new IniciTabs(),
+            new InicioTabs(),
+            new CelularesTabs(),
+            new TabletasTabs(),
+            new AudifonosTabs(),
           ],
         ),
       ),
     );
-    return new MaterialApp(
-      title: 'Villeags Hernan',
+    var materialApp = new MaterialApp(
+      title: 'Villegas',
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TabController,
+      home:TabController,
     );
+    return materialApp;
   }
 }
 
