@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class TabletasTabs extends StatelessWidget{
+class RegistroTabs extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(

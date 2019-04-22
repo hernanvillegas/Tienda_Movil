@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CelularesTabs extends StatelessWidget{
+class ProductosTabs extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     
