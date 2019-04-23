@@ -4,6 +4,7 @@ import  'dart:async';
 
 
 class Carousel extends StatelessWidget{
+  @override
   final List images;
   final Curve animationCurve;
   final Duration animationDuration;
@@ -46,17 +47,14 @@ class Carousel extends StatelessWidget{
     this.overlayShadowColors,
     this.overlayShadowSize = 0.5,
     this.autoplay = true,
-    this.autoplayDuration = const Duration(seconds: 3)
+    this.autoplayDuration = const Duration(seconds: 3),
   }
   );
-  /*
-  assert(images != null),
-  assert(animationCurve != null),
-async 
 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return null;
-  }}
-  */
+  }
+  
+}
