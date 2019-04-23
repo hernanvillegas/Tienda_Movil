@@ -62,9 +62,9 @@ class _ImageCarouselState extends State<ImageCarousel> with SingleTickerProvider
           ),
           padding: const EdgeInsets.all(10.0),
           child: new Text(
-            'Banner on top of carousel',
+            'Productos en Oferta',
             style: TextStyle(
-              fontFamily: 'fira',
+             // fontFamily: 'fira',
               fontSize: animation.value,//18.0,
               //color: Colors.white,
             ),
