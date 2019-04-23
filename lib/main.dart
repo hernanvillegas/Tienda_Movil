@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:tienda_movil/taps/nosotros.dart';
-import 'package:tienda_movil/taps/productos.dart';
-import 'package:tienda_movil/taps/inicio.dart';
-import 'package:tienda_movil/taps/registro.dart';
+import 'package:image_carousel_app/taps/inicio.dart';
+import 'package:image_carousel_app/taps/nosotros.dart';
+import 'package:image_carousel_app/taps/productos.dart';
+import 'package:image_carousel_app/taps/registro.dart';
+
 //import 'package:tienda_movil/screens/home_screen.dart';
 
 void main() => runApp(MyApp());

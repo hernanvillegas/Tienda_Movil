@@ -1,5 +1,5 @@
-import 'package:tienda_movil/widgets/carousel_pro.dart';
 import 'package:flutter/material.dart';
+import 'package:image_carousel_app/widgets/carousel_pro.dart';
 
 void main() => runApp(new ProductosTabs());
 
