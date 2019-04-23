@@ -5,7 +5,7 @@ class RegistroTabs extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title:new Text('Registro Cliente'),
+        title:new Text('Registro: Nuevo Cliente'),
         actions: <Widget>[
           new IconButton(icon: const Icon(Icons.save),
           onPressed: (){}   //para crear funcion es dentro delos corchetes
@@ -47,12 +47,12 @@ class RegistroTabs extends StatelessWidget{
           new ListTile(
               leading: const Icon(Icons.today),
               title: new Text('Cumpleaños'),
-              subtitle: const Text('Marzo 17 de 2019'),
+              subtitle: const Text('Julio 31 de 1994'),
           ),
           new ListTile(
               leading: const Icon(Icons.group),
-              title: new Text('Grupo Fluter'),
-              subtitle: new Text('Fluterrr...'),
+              title: new Text('Grupo Flutter'),
+              subtitle: new Text('conociendo nuevas tecnologias'),
               
           ),
         ],
